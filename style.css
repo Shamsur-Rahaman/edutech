@@ -1,0 +1,96 @@
+.slider-header {
+    font-size: 72px;
+}
+
+.slider-paragraph {
+    font-size: 18px;
+}
+
+.carousel-item img {
+    height: 500px;
+    width: 100%;
+}
+
+.course-section {
+    margin-top: 100px;
+}
+
+.company-info {
+    background-color: rgb(245, 252, 255)
+}
+
+.ready-to-join {
+    color: white;
+}
+
+.ready-to-join-btn {
+    color: rgb(100, 200, 240);
+    font-weight: 600;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.stu-feedback {
+    margin-top: 60px;
+}
+
+.font-awsomes {
+    color: rgb(252, 180, 47);
+    font-size: 18px;
+}
+
+.faq-section {
+    margin-top: 50px;
+}
+
+.companies-section {
+    margin-top: 80px;
+}
+
+.footer-section {
+    margin-top: 50px;
+    background-color: rgb(54, 42, 42);
+    color: white;
+    text-align: center;
+}
+
+.fa-icons {
+    font-size: 18px;
+}
+
+.form-section {
+    color: black;
+}
+
+@media only screen and (max-width: 720px) {
+    .ready-to-join {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+
+    .successful-students .btn {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+    .stu-feedback .btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .companies-section h1 {
+        display: none;
+    }
+
+    .companies-section img {
+        display: none;
+    }
+}
